@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<header>
+		<h1> Hello World</h1>
+		<table>
+			<tr>
+				<td>
+					<strong>Skill:</strong>
+				</td>
+				<td>
+					Compiling C++ Projects
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>Value </strong>
+				</td>
+				<td>
+					10pts
+				</td>
+			</tr>
+		</table>
+	</header>
+	<main>
+		<section>
+			<h2>Objective</h2>
+			<p>
+				To compile a simple C++ program to learn the process of writing and running a program.
+			</p>
+		</section>
+		<section>
+			<h2> Materials </h2>
+			<p>
+				<ol>
+					<li>C++ Compiler</li>
+					<li> Access to your computer's terminal/command-line interface </li>
+				</ol>
+			</p>	
+		</section>
+		<section>
+			<h2> Methods </h2>
+			<p>
+				<ol>
+					<li> Open the terminal for your operating system. </li>
+					<li> 
+						<p>
+							Type:
+						</p>
+						<code>
+							g++ --version
+						</code>
+						<p> And press ENTER. Make sure that you get a message displaying what version of g++ you have. If not you will need to install this program </p>
+					</li>
+					<li>
+						<p> Create a new file named hello-world.cpp and open the file for editing in your favorite basic text editor or IDE.</p>
+						<p> Place the following code inside the file: </p>
+						<code>
+							<pre>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  cout << "Hello World!\n";
+  return 0;
+}
+							</pre>
+						</code>
+						<p> When you are finished, save the file </p>
+					</li>
+					<li>
+						<p> Next we are going to compile your human-readable code file into a computer program your computer can understand. In your terminal, navigate to the location of your hello-world.cpp file. Once there, type: </p>
+						<code>
+							g++ hello-world.cpp
+						</code>
+						<p> If you don't see any error messages, then congratulations! You have successfully compiled your first C++ program. The g++ command turns your human-readable text file into binary. Just to be sure, look inside the directory where your hello-world.cpp file is. You should see an additional file named a.out. This new file is the binary executable file that the computer will read to run your computer program. </p>
+					</li>
+					<li>
+						<p> Next, we are going to execute the binary file a.out. To do this, we simply need to type one more command. Please type:  </p>
+						<code>
+							./a.out
+						</code>
+						<p> You should see the words <output> Hello World! </output> print to the screen. If so, you have just completed the lab! </p>
+					</li>
+				</ol>
+			</p>
+		</section>
+		<section>
+					<h2> Conclusion </h2>
+			<p>
+				You now have a sense of the process for writing and compiling computer programs. You started by creating a file and filling it with code. Then you compiled the code into an executable. After this you ran the code and witnessed the output. 
+			</p>
+		</section>
+		</main>
+</body>
+</html>
+

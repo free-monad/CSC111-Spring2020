@@ -59,7 +59,7 @@
 						<p> Place the following code inside the file: </p>
 						<code>
 							<pre>
-#include <iostream>
+#include &ltiostream&gt
 using namespace std;
 
 int main()

@@ -1,0 +1,84 @@
+Chapter 2
+
+*C++ is an object-oriented programming language
+
+*It comes from a previous language called C
+
+*C was written in the 1970's to help build the Unix operating system
+
+*Unix was one of the first portable operating systems that could run on any hardware
+
+*C stays very close to the machine and required manual memory management
+
+*C++ was developed in the 1980's as a superset of C, it is C but with object-oriented design
+
+*C and C++ are compiled languages
+
+*C++ is good for writing low-level system code because it is fast and can talk directly to the hardware
+
+
+*Some examples where C/C++ shine:
+
+1. Writing hardware drivers 
+2. Writing for embedded devices (like CPU in appliances)
+3. Writing physical and mathematical simulations modeling
+4. Writing intense graphics processing
+5. Videogames (Unreal Engine, Godot)
+
+
+
+*Some examples where Python shines:
+
+1. Server side scripts for managing a server or groups of servers
+2. Scripting tasks in another utility such as a graphics program
+3. Academic research (Python has extensive libraries)
+4. Serving Web Pages (with Django)
+5. Custom home side projects (like making a magic mirror)
+
+
+
+
+Comments in C++ can be written using single line and multiline versions:
+
+//A single line comment
+
+/*
+This is a
+multi
+line comment
+*/
+
+
+The hash symbol # initiates preprocessor directives, used in this class for including libraries
+
+< > enclose a file name and sometimes a variable type when typecasting or calling advanced library functions called templates
+
+( ) used to signify a function prototype, function header definition, or function call
+
+{ } encloses a group of statements that execute as the result of an expression or mark the beginning and end of a definition
+
+" " marks the beginning and end of a string literal
+
+;   marks the end of a programming statement.
+
+
+
+
+
+*cout is how we print to the screen in C++, contrasts with Python's print() function and C's printf() function
+
+*cout is an object
+
+endl and \n are two ways of printing new lines
+
+\t prints a tab
+
+
+
+int main() { return 0; } is the the main entry point to any C/C++ program.
+
+*notice the return type int, the return value 0, and the empty parenthesis with nothing inside them
+
+*all of our code executes inside main, even if it is written somewhere else
+
+

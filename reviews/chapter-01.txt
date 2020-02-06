@@ -1,0 +1,109 @@
+Chapter 1
+
+
+Foundations:
+
+* Computers were invented as a theoretical mathematical tool for modeling and understanding the nature of algorithms. 
+
+* Algorithms are sequence of steps/rules that when followed can be used to solve a problem or calculate a result.
+
+* Theoretically, a computer can process any algorithm, but practically they are limited by processing power and memory constraints
+
+* In physical machines, the processing power comes from the CPU, the memory is stored in RAM
+
+* Most physical processes can be converted to algorithms. Since all algorithms can be run on a computer, 
+most tasks can be automated by a computer. This is why computers can do so many tasks. They are programmable.
+
+* Computers take information from input devices, process the information, and then produce output
+
+* Common input devices are keyboards, microphones, mouses, and cameras
+
+* Common output devices are printers, monitors, and speakers.
+
+* Computers can also store information on secondary storage as files. These are commonly hard drive and usb sticks
+
+* The CPU has two parts, the ALU and the Control Unit. The CPU engages in a fetch, decode, execute cycle
+
+* On the computer hardware, software in the form of computer programs run.
+
+* Computer programs are a set of instructions a computer follows to perform a task. They are the practical implementation of an algorithm on a computer.
+
+* Computer programs are written in programming languages
+
+* A computer understands binary and machine instructions. 
+
+* These are hard for human beings to process so we write programs in friendlier languages like assembly, C++, or Python, and convert them to machine language.
+
+* C++ is the language used in this course. It is very different from Python that you used before
+
+
+        C++                                             vs.                         Python
+-statically typed variables                                               -dynamically typed variables
+-compiled language                                                        -interpretted language
+-ugly                                                                     -beautiful
+-faster run times                                                         -slower run times
+-uses punctuation to organize code                                        -uses whitespace to organize code
+-manual and powerful memory management                                    -automatic memory management
+
+
+
+* The process of compiling a program occurs in several phases
+  1. Source code is written in a human-readable text file
+  2. A preprocessor goes through the code and cleans it up (in C++ any line with # is transformed into more C++ code)
+  3. A compiler converts the instructions into object code
+  4. A linker links the object code with system libraries specific to the machine compile target
+  5. Executable code is created that can be processed by the CPU directly
+
+* Writing source code can be done in a text file.
+* Compiling code can be done by hand in a terminal with a command line compiler
+* Writing and compiling code can also be done in an Integrated Development Environment like Visual C++
+
+
+
+
+The Grammar of a Programming Language
+
+*The text in a source code file is broken into discrete units called tokens.
+
+*The tokens are the smallest unit of meaning in the language.
+
+*The set of rules for how tokens are allowed to be combined into sequences is called the syntax of the language.
+
+*The syntax forms the structure or grammar of the language.
+
+
+*Language tokens can be broken into a few large categories:
+
+1. Keywords                - special reserved words that are part of the core of the language
+2. Identifiers             - words defined by you and other programmers to identify functions, variables, and constants
+3. Operators               - symbols that call specialized functions, operators typically use infix notation
+4. Punctuation             - symbols used to denote blocks of code, the end of statements, or the invocation of functions
+5. Literals                - values that represent data that can be stored in the computer's memory and used by a program
+
+
+*The language will have statements and expressions which are equivalent to sentences and phrases in a normal spoken language.
+
+*Expressions are like statements but return values
+
+*Programs can be chunked into large blocks of code that function as a single unit
+
+*functions are a way to block code into units that can be used over and over again
+
+*variables are used to set aside computer memory for storing data
+
+
+
+Imperative, Procedural, Declaritive, Object-oriented, and Functional Programming
+
+*imperative programming focuses on writing code linearly step-by-step, useful for short scripting tasks
+
+*procedural programming breaks tasks into functions/procedures/routines that take inputs, produce outputs, and can be used over and over again
+
+*declarative programming focuses on writing code that tells the machine what to do but not how to do it. An example would be SQL
+
+*object-oriented programming uses objects as a fundamental organizing unit. The objects combine data and functions together into a single unit.
+
+*functional programming makes mathematical pure functions, immutable data structures, recursion, and higher-order functions as fundamental to
+the design of the program, pushing mutability and input and output to the outer edge of the program's design
+
+                 

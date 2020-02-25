@@ -1,0 +1,148 @@
+cin is used to take input from the user like this:
+
+cin >> myVar;
+
+The (>>) operator can be thought of as writing data into the variable
+
+Calling cin makes the program wait until the user presses ENTER
+
+
+cin can accept multiple values like this:
+
+cin >> myVar1 >> myVar2;
+
+when the program stops for cin and the user enters input, characters are entered into the keyboard buffer until the user presses enter 
+
+cin pulls data from the keyboard and puts that data into variables, stopping when it encounters whitespace,
+or when the data in the buffer is incompatible with the variable type.
+
+the processing of the input can sometimes behave unexpectedly because of the technical nature of the input processing
+
+
+Operator Precedence
+(unary negation) -
+* / %
++ -
+
+Associativity
+(unary negation) -    right to left
++ / %                 left to right
++ -                   left to right
+
+
+
+TYPE CONVERSION:
+
+When evaluating mathematical expression with different data types there is a rank structure that determines how types are converted
+
+Data Type Ranking
+
+long double
+double
+float
+unsigned long long int
+long long int
+unsigned long int
+long int
+unsigned int
+int
+
+types that store more information (are generally larger) have a higher rank than types that store less information
+
+automatic conversion of types is called type coercion
+
+types are generally coerced to higher ranking types to preserver information
+
+chars, shorts, and unsigned shorts are automatically promoted to ints
+
+lower ranking values are promoted to higher ranking values during the evaluation of mathmatical expressions
+
+when a final value of an expression is being assigned to a variable, the value will be converted to the type of the variable
+
+
+
+Overflow and Underflow
+
+When the min or max of a type is reached, the data wraps around to the other end of the range (max++ become min for instance)
+
+
+Typecasting
+
+To force casting of data to a particular type, you can use the static_cast() function.
+
+It works like this 
+
+static_cast<char>(65) // converts the integer 65 to a character
+static_cast<int>(7.22) //converts the floating point value 7.22 to an integer
+
+
+
+Combined Assignment
+
+result += 3  //is the same as result = result + 3
+
+
+
+Formatting Output
+
+including <iomanip> gives you access to some formatting options for cout
+
+setw(n)                   //pads display values with whitespace
+setprecision(n)           //sets the number of significant digits for a number
+setprecision(2) << fixed  //set floating point numbers to print with two significant digits after the decimal
+showpoint                 //forces the display of the decimal point
+left                      //left justifies output
+right                     //right justifies output
+
+
+
+Getline
+
+getline(cin, input)    //where cin is your in object and input is the variable you are writing data to
+
+getline takes input for an entire line until a return character is seen in the keyboard buffer
+
+
+
+cin.get()  //reads a single character, even if it is whitespace
+cin.get(ch)  //reads a single character, even if it is whitespace and stores it in ch
+
+
+
+The newline character problem and cin.ignore()
+
+Sometimes after using cin the enter press that signals to end waiting for input remains in the keyboard buffer.
+Subsequent calls to cin.get() or cin.getline() will then consume the \n and appear to be skipped during execution.
+
+Use cin.ignore() at the appropriate place in the code where this occurs to prevent this from happening
+
+
+using cin.ignore(n, c) where n is a number and c is a character makes the input for n  characters be ignored or
+until the character in c is encountered.
+
+
+Math Functions in <cmath>
+
+abs()
+cos()
+exp()
+fmod()
+log()
+log10()
+round()
+sin()
+sqrt()
+tan()
+
+
+Random Number Generation
+
+unsigned s = time(0);
+srand(s)
+
+rand()  //grabs a random number
+
+
+
+
+

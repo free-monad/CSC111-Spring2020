@@ -82,3 +82,105 @@ int main() { return 0; } is the the main entry point to any C/C++ program.
 *all of our code executes inside main, even if it is written somewhere else
 
 
+
+cout uses the stream operator << to send stuff to standard output
+
+
+#include is a preprocessor directive that tells the preprocessor to include certain code into your program before the compiler runs. In the case of the line: #include <iostream>, code is added to the top of your program for defining, amongst other things, cout and cin.
+
+There are many kinds of literals that can be used in your program. Literals can be thought of as data that is hard-coded into your program. Here are some examples of literals.
+
+"The bat is here."
+22
+"22"
+'c'
+22.0f
+0xEF94
+true
+0b11010001
+false
+32L
+031
+65LL
+
+There are also many keywords that have built in meaning in the C++ language:
+
+auto    bool    break   case        catch   char    class     const   continue
+default delete  do      double      else    enum    false     float   for
+if      int     long    namespace   new     private protected public  return
+short   signed  sizeof  static      struct  switch  template  this    throw
+true    try     typedef virtual     void    while
+
+Each of these words and some others instruct the program to behave in a certain way
+
+Identifiers are words that are defined as special after the core langauage. For instance, any variables, functions, or classes that you define are identifiers (when occuring as symbols in the syntax of the program). When you include things like iostream into your program, you will encounter some identifiers that you did not define such as cout and cin. These were defined by other programmers.
+
+Identifiers must start witha  letter or underscore and can be composed only of alphanumeric characters and underscores.
+
+
+Data Types - 
+
+Unlike in Python, a variable's type must be defined so the machine can know how much memory to set aside for a variable and how to process that data when it is encountered. The smallest addressable amount of memory in most CPU architectures is 1 byte = 8 bits
+
+char is at least 8 bits (1 byte by definition, however many bits it is)
+short is at least 16 bits
+int is at least 16 bits
+long is at least 32 bits
+long long (in versions of the language that support it) is at least 64 bits
+
+Each type in the above list is at least as wide as the previous type (but may well be the same)
+
+Additionally there:
+
+bool which is 8 bits and represents true or false
+string which represents an array of chars
+float, double, and long double which represent fractional values called floating point values (4 and 8 bytes respectively)
+
+
+INTEGERS:
+
+short int                 2 bytes       -32,768 to +32,767
+unsigned short int        2 bytes        0 to +65,535
+int                       4 bytes       -2,147,483,648 to +2,147,483,647
+unsigned int              4 bytes        0 to 4,294,967,295
+long int                  4 bytes       -2,147,483,648 to +2,147,483,647
+unsigned long int         4 bytes        0 to 4,294,967,295
+long long int             8 bytes       -9,223,372,036,854,775,808 - 9,223,372,036,854,775,807
+unsigned long long int    8 bytes        0 to 18,446,744,073,709,551,615
+
+
+FLOATING-POINTS:
+
+single-precision        float         4 bytes.  Numbers between plus or minus 3.4E-38 and plus or minus 3.4E38
+double precision        double        8 bytes   Numbers between plus or mius 1.7E-308 and plus or minus 1.7E308
+long double precision   long double   8 bytes   Numbers between plus or minus 1.7E-308 and plus or minus 1.7E308
+
+
+Assigning a float to an int truncates the fractional part of the value
+
+int x = 3.7;  //stores 3 in x
+
+you can determine the size of a variable or type with sizeof()
+
+sizeof(char)
+
+
+Variable scope is the part of a program that has access to a variable
+
+
+
+Operators:
+
++, - *, /. %
+
+These are basic arithmetic operations. Division (/) behaves differently for ints and floating points. In integer division fractional values are dropped from the result.
+
+5 / 3  //yields 1 when 5 and 3 are integer types
+
+The const keyword makes a variable immutable. We call immutable variables constants.
+
+const int MAX = 1000;
+
+
+
+

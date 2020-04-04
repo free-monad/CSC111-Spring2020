@@ -1,0 +1,212 @@
+X X X X X X X X X X
+X X X X X X X X X X
+X X X X X X X X X X
+X X X X X X X X X X
+X X X X X X X X X X
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+p p p p p p p p p p
+p p p p p p p p p p
+p p p p p p p p p p
+p p p p p p p p p p
+p p p p p p p p p p
+
+b b b b b b b b b b
+b b b b b b b b b b
+b b b b b b b b b b
+b b b b b b b b b b
+b b b b b b b b b b
+
+r r r r r r r r r r
+r r r r r r r r r r
+r r r r r r r r r r
+r r r r r r r r r r
+r r r r r r r r r r
+
+P P P P P P P P P P
+P P P P P P P P P P
+P P P P P P P P P P
+P P P P P P P P P P
+P P P P P P P P P P
+
+B B B B B B B B B B
+B B B B B B B B B B
+B B B B B B B B B B
+B B B B B B B B B B
+B B B B B B B B B B
+
+R R R R R R R R R R
+R R R R R R R R R R
+R R R R R R R R R R
+R R R R R R R R R R
+R R R R R R R R R R
+
+P p p p p p p p p p
+p p p p p p p p p p
+p p p p p p P p p p
+p p p p p p p p p p
+p p p p p p p p p P
+
+B B B B B B B B B B
+B B B B B B B B B B
+B B B B B B b B B B
+B B B B B B B B B B
+B B B B B B B B B b
+
+0 B 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+R R R R R R R R R R
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+P 0 0 0 0 0 0 0 0 0
+0 P 0 0 0 0 0 0 0 0
+0 0 P 0 0 0 0 0 0 0
+0 0 0 P 0 0 0 0 0 0
+0 0 0 0 P 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+X X X X X X X X X X
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 X 0 0
+0 0 0 0 0 0 0 X 0 0
+0 0 0 0 0 0 0 X 0 0
+0 0 0 0 0 0 0 X 0 0
+0 0 0 0 0 0 0 X 0 0
+
+0 0 0 0 0 0 0 0 0 X
+0 0 0 0 0 0 0 0 X 0
+0 0 0 0 0 0 0 X 0 0
+0 0 0 0 0 0 X 0 0 0
+0 0 0 0 0 X 0 0 0 0
+
+0 P 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+0 P 0 0 0 0 0 0 0 0
+0 B 0 0 0 0 0 0 0 0
+0 R 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+P P B R B B R R P B
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 R 0 0 0 0
+0 0 0 0 0 0 R 0 0 0
+0 0 0 0 0 0 0 B 0 0
+0 0 0 0 0 0 0 0 B 0
+0 0 0 0 0 0 0 0 0 P
+
+0 0 0 p 0 0 0 0 0 0
+0 0 0 p 0 0 0 0 0 0
+0 0 0 r 0 0 0 0 0 0
+0 0 0 b 0 0 0 0 0 0
+0 0 0 b 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+r r b p r b b r p p
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 r 0 0 0 0 0
+0 0 0 p 0 0 0 0 0 0
+0 0 r 0 0 0 0 0 0 0
+0 b 0 0 0 0 0 0 0 0
+p 0 0 0 0 0 0 0 0 0
+
+P 0 0 0 0 0 0 0 0 0
+0 p 0 0 0 0 0 0 0 0
+0 0 R 0 0 0 0 0 0 0
+0 0 0 r 0 0 0 0 0 0
+0 0 0 0 B 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+r R P B b p P B R r
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 p 0 0 0 0
+0 0 0 0 0 b 0 0 0 0
+0 0 0 0 0 r 0 0 0 0
+0 0 0 0 0 P 0 0 0 0
+0 0 0 0 0 B 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 0
+0 0 0 r 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 r 0
+0 0 R 0 0 0 R 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+0 0 0 0 0 0 0 0 0 B
+0 0 0 b 0 0 0 0 0 0
+0 0 0 0 0 0 B 0 0 0
+0 0 0 0 0 0 0 0 0 0
+b 0 0 0 0 0 0 0 B 0
+
+0 0 0 p 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 p P 0 0 P 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 P 0 0 0 0 0
+
+X X r X X X X X X X
+X X r X R X X X X X
+X X X r X R X X X X
+X X X X R X X X X X
+X X R X X X X X X X
+
+X X b B B X X X X X
+X X b X X X X X X X
+X X b X b X X b X X
+X X X X X X X X X X
+X X B X B X X X X X
+
+P X X X P X X p X X
+X P X X X X X X p X
+X X P X X X X X X p
+X X X X X X X X X X
+X X X X X X X X X P
+
+0 p 0 0 0 0 0 X 0 p
+0 X 0 R 0 0 0 0 P 0
+0 0 b 0 0 0 B B 0 0
+0 0 0 0 X X 0 0 R 0
+0 0 0 0 0 0 0 0 0 r
+
+0 b 0 B 0 b X b 0 0
+0 0 r b 0 b r 0 b R
+r B 0 0 R X 0 r 0 0
+0 0 X 0 p 0 0 0 X 0
+0 0 0 p p 0 0 P p R
+
+0 0 0 0 0 0 r 0 r 0
+0 B 0 b X X 0 P 0 0
+0 0 b 0 X R p 0 P 0
+0 B 0 r 0 X 0 P 0 0
+0 0 0 p R R R 0 0 0
+
+P B R X p b r X X 0
+0 0 0 0 0 0 0 0 0 0
+P X X R B 0 p b b r
+0 0 0 0 0 P 0 0 0 0
+0 0 0 0 0 B 0 0 0 0
+
+
+
